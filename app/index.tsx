@@ -1,12 +1,15 @@
-import { Text, View } from "react-native";
+import { Button, Text, View } from "react-native";
 import React from "react";
+import { router } from "expo-router";
+import { SafeAreaView } from "react-native-safe-area-context";
 
-const App = () => {
+const Home = () => {
   return (
-    <View>
-      <Text>App</Text>
-    </View>
+    <SafeAreaView>
+      <Text>index</Text>
+      <Button title="Press me" onPress={() => router.push("/Flights")} />
+    </SafeAreaView>
   );
 };
 
-export default App;
+export default Home;
