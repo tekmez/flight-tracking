@@ -2,9 +2,8 @@ import { Text, TouchableOpacity, View } from "react-native";
 import { StatusBar } from "expo-status-bar";
 import { SafeAreaView } from "react-native-safe-area-context";
 import Feather from "@expo/vector-icons/Feather";
-import LightPlaneIcon from "@/assets/icons/LightPlaneIcon";
-import TButton from "@/components/ui/Button";
 import EmptyState from "@/components/EmptyState";
+import TicketCard from "@/components/TicketCard";
 const Flights = () => {
   return (
     <SafeAreaView className="px-4 flex-1">
@@ -18,7 +17,8 @@ const Flights = () => {
         </TouchableOpacity>
       </View>
       <View className="items-center justify-center flex-1">
-        <EmptyState />
+        {/* <EmptyState /> */}
+        <TicketCard />
       </View>
     </SafeAreaView>
   );
