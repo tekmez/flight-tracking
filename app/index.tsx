@@ -1,5 +1,5 @@
 import { Text, View } from "react-native";
-import React, { useRef } from "react";
+import React from "react";
 import { router } from "expo-router";
 import { SafeAreaView } from "react-native-safe-area-context";
 import LottieView from "lottie-react-native";
@@ -7,14 +7,12 @@ import TButton from "@/components/ui/Button";
 import { StatusBar } from "expo-status-bar";
 
 const Home = () => {
-  const animation = useRef<LottieView>(null);
   return (
     <SafeAreaView className="items-center justify-center flex-1">
       <StatusBar style="dark" />
       <View className="items-center">
         <LottieView
           autoPlay
-          ref={animation}
           style={{
             width: 600,
             height: 250,
