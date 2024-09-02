@@ -1,6 +1,6 @@
 import { Text, View } from "react-native";
 
-const App = () => {
+const Flights = () => {
   return (
     <View>
       <Text className="text-2xl">Flights</Text>
@@ -8,4 +8,4 @@ const App = () => {
   );
 };
 
-export default App;
+export default Flights;
