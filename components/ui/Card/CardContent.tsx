@@ -23,7 +23,7 @@ const CardContent = ({
 }: CardContentProps) => {
   return (
     <View className="flex-row items-center">
-      <View className="ml-[3px] mr-4">
+      <View className="ml-[3px]">
         <View className="flex-row items-center mb-2">
           <UpArrowIcon className="mr-1" />
           <Text className="font-sfPro text-[13px] leading-[22px] text-center text-gray-500">
