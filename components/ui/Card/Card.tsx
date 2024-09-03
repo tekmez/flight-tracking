@@ -1,3 +1,4 @@
+import { View } from "react-native";
 import { Circle, ClipPath, Defs, Rect, Svg } from "react-native-svg";
 
 type CardProps = {
@@ -25,7 +26,7 @@ export default function Card({ children }: CardProps) {
         stroke={"#E5E7EB"}
         strokeWidth={1}
       />
-      {children}
+      <View className="p-4">{children}</View>
     </Svg>
   );
 }
