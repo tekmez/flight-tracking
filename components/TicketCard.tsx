@@ -7,7 +7,11 @@ import { Flight } from "@/types/FlightType";
 const TicketCard = (data: Flight) => {
   return (
     <Card>
-      <CardHeader airline={data.airline} duration={data.duration} />
+      <CardHeader
+        airline={data.airline}
+        duration={data.duration}
+        flightNumber={data.flightNumber}
+      />
       <CardContent
         departureCity={data.departureCity}
         arrivalCity={data.arrivalCity}

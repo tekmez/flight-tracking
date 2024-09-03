@@ -6,15 +6,16 @@ import Badge from "../Badge";
 type CardHeaderProps = {
   airline: string;
   duration: string;
+  flightNumber: string;
 };
 
-const CardHeader = ({ airline, duration }: CardHeaderProps) => {
+const CardHeader = ({ airline, duration, flightNumber }: CardHeaderProps) => {
   return (
     <View className="flex-row justify-between items-center mb-4">
       <View className="flex-row items-center gap-2">
         <ThyIcon />
         <Text className="font-sfProMedium text-[13px] leading-[18px] text-center text-gray-500 my-[3px]">
-          {airline}
+          {flightNumber} • {airline}
         </Text>
       </View>
       <Badge duration={duration} />
