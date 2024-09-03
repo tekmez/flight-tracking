@@ -3,14 +3,14 @@ import Svg, { SvgProps, Path } from "react-native-svg";
 const CalendarIcon = (props: SvgProps) => (
   <Svg width={25} height={25} fill="none" {...props}>
     <Path
-      stroke="#6B7280"
+      stroke="#111827"
       strokeLinecap="round"
       strokeLinejoin="round"
       strokeWidth={2.083}
       d="M3.125 10.417h18.75V6.25a2.083 2.083 0 0 0-2.083-2.083H5.208A2.083 2.083 0 0 0 3.125 6.25v14.583a2.083 2.083 0 0 0 2.083 2.084H12.5M8.333 2.083V6.25M16.667 2.083V6.25"
     />
     <Path
-      stroke="#6B7280"
+      stroke="#111827"
       strokeLinecap="round"
       strokeLinejoin="round"
       strokeWidth={2.083}

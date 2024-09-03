@@ -3,21 +3,21 @@ import Svg, { SvgProps, Path } from "react-native-svg";
 const UserIcon = (props: SvgProps) => (
   <Svg width={25} height={25} fill="none" {...props}>
     <Path
-      stroke="#6B7280"
+      stroke="#111827"
       strokeLinecap="round"
       strokeLinejoin="round"
       strokeWidth={2.083}
       d="M18.75 20.833a6.25 6.25 0 0 0-12.5 0"
     />
     <Path
-      stroke="#6B7280"
+      stroke="#111827"
       strokeLinecap="round"
       strokeLinejoin="round"
       strokeWidth={2.083}
       d="M12.5 14.583a4.167 4.167 0 1 0 0-8.333 4.167 4.167 0 0 0 0 8.333Z"
     />
     <Path
-      stroke="#6B7280"
+      stroke="#111827"
       strokeLinecap="round"
       strokeLinejoin="round"
       strokeWidth={2.083}
