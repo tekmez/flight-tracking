@@ -1,6 +1,6 @@
 import * as React from "react";
 import Svg, { SvgProps, Path } from "react-native-svg";
-const ThyIcon = (props: SvgProps) => (
+const Turkish = (props: SvgProps) => (
   <Svg width={24} height={24} fill="none" {...props}>
     <Path
       fill="#fff"
@@ -12,4 +12,4 @@ const ThyIcon = (props: SvgProps) => (
     />
   </Svg>
 );
-export default ThyIcon;
+export default Turkish;

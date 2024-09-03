@@ -17,9 +17,9 @@ import { Flight } from "@/types/FlightType";
 const flightNumbers = ["TK 0001", "TK 0202", "TK 0303", "TK 0404"];
 const airlines = [
   "Turkish Airlines",
-  "Delta Airlines",
-  "Lufthansa",
-  "Emirates",
+  "Ryanair Airlines",
+  "Lufthansa Airlines",
+  "Emirates Airlines",
 ];
 const cities = ["New York", "Istanbul", "Paris", "Dubai", "Tokyo"];
 const times = ["08:00 AM", "07:00 PM", "09:00 AM", "06:00 PM"];
