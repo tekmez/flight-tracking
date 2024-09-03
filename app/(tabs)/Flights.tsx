@@ -14,7 +14,6 @@ import TicketCard from "@/components/TicketCard";
 import { useState } from "react";
 import { Flight } from "@/types/FlightType";
 
-const flightNumbers = ["TK 0001", "TK 0202", "TK 0303", "TK 0404"];
 const airlines = [
   "Turkish Airlines",
   "Ryanair Airlines",
@@ -33,6 +32,7 @@ const Flights = () => {
     array[Math.floor(Math.random() * array.length)];
 
   const generateRandomFlight = () => {
+    const airline = getRandomElement(airlines);
     const departureCity = getRandomElement(cities);
     const arrivalCity = getRandomElement(
       cities.filter((city) => city !== departureCity)
@@ -41,10 +41,13 @@ const Flights = () => {
     const landingDate = getRandomElement(
       dates.filter((date) => date !== takeOffDate)
     );
-
+    const flightNumber = `${airline.split(" ")[0].charAt(0)}${airline
+      .split(" ")[0]
+      .charAt(3)
+      .toUpperCase()} ${Math.floor(Math.random() * 10000)}`;
     return {
-      flightNumber: getRandomElement(flightNumbers),
-      airline: getRandomElement(airlines),
+      flightNumber,
+      airline,
       departureCity,
       arrivalCity,
       departureTime: getRandomElement(times),
