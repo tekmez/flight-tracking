@@ -85,7 +85,7 @@ const Flights = () => {
           ItemSeparatorComponent={() => <View className="h-4" />}
           ListEmptyComponent={
             <View className="items-center justify-center flex-1">
-              <EmptyState />
+              <EmptyState onPress={handleAddFlight} />
             </View>
           }
           contentContainerStyle={{ flexGrow: 1 }}

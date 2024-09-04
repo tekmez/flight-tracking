@@ -3,7 +3,11 @@ import React from "react";
 import LightPlaneIcon from "@/assets/icons/LightPlaneIcon";
 import TButton from "./ui/Button";
 
-const EmptyState = () => {
+type EmptyStateProps = {
+  onPress: () => void;
+};
+
+const EmptyState = ({ onPress }: EmptyStateProps) => {
   return (
     <>
       <View className="border border-gray-200 rounded-[14px] p-[14px] mb-4">
@@ -20,7 +24,7 @@ const EmptyState = () => {
       </View>
       <TButton
         title="Add Flight"
-        onPress={() => console.log(22)}
+        onPress={onPress}
         classNames="bg-orange-600"
       />
     </>
