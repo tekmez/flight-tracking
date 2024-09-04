@@ -68,7 +68,10 @@ const Flights = () => {
   const handleCloseModal = () => {
     setSelectedFlight(null);
   };
-
+  const handleRemoveFlight = (flight: Flight) => {
+    setFlights(flights.filter((f) => f.flightNumber !== flight.flightNumber));
+    setSelectedFlight(null);
+  };
   return (
     <SafeAreaView
       className="flex-1"
@@ -96,7 +99,7 @@ const Flights = () => {
       <Modal visible={selectedFlight !== null} onClose={handleCloseModal}>
         {selectedFlight && <TicketCard {...selectedFlight} />}
         <TButton
-          onPress={handleCloseModal}
+          onPress={() => handleRemoveFlight(selectedFlight as Flight)}
           title="Remove Flight"
           classNames="mt-4 bg-[#FEE2E2] w-full"
           textClassNames="text-red-900 font-sfProMedium text-center"
