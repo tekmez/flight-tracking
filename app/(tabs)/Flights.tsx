@@ -1,5 +1,4 @@
 import {
-  FlatList,
   Platform,
   SafeAreaView,
   Text,
@@ -15,17 +14,14 @@ import { useState } from "react";
 import { Flight } from "@/types/FlightType";
 import TButton from "@/components/ui/Button";
 import Modal from "@/components/Modal";
-
-const airlines = [
-  "Turkish Airlines",
-  "Ryanair Airlines",
-  "Lufthansa Airlines",
-  "Emirates Airlines",
-];
-const cities = ["New York", "Istanbul", "Paris", "Dubai", "Tokyo"];
-const times = ["08:00 AM", "07:00 PM", "09:00 AM", "06:00 PM"];
-const durations = ["2h 30m", "3h 15m", "4h 00m", "5h 45m"];
-const dates = ["18 Apr 2022", "19 Apr 2022", "20 Apr 2022", "21 Apr 2022"];
+import TicketList from "@/components/TicketList";
+import {
+  airlines,
+  cities,
+  dates,
+  durations,
+  times,
+} from "@/constants/AirlineConstants";
 
 const Flights = () => {
   const [flights, setFlights] = useState<Flight[] | []>([]);
@@ -90,22 +86,11 @@ const Flights = () => {
         </TouchableOpacity>
       </View>
       <View className="mt-3 flex-1 px-4">
-        <FlatList
-          data={flights}
-          renderItem={({ item }) => (
-            <TouchableOpacity onPress={() => handleOpenModal(item)}>
-              <TicketCard {...item} />
-            </TouchableOpacity>
-          )}
-          keyExtractor={(item, idx) => `${item.flightNumber}-${idx}`}
-          ItemSeparatorComponent={() => <View className="h-4" />}
-          ListEmptyComponent={
-            <View className="items-center justify-center flex-1">
-              <EmptyState onPress={handleAddFlight} />
-            </View>
-          }
-          contentContainerStyle={{ flexGrow: 1 }}
-          showsVerticalScrollIndicator={false}
+        <TicketList
+          flights={flights}
+          handleOpenModal={handleOpenModal}
+          handleAddFlight={handleAddFlight}
+          EmptyState={EmptyState}
         />
       </View>
       <Modal visible={selectedFlight !== null} onClose={handleCloseModal}>
