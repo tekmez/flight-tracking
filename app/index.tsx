@@ -8,7 +8,7 @@ import { StatusBar } from "expo-status-bar";
 
 const Home = () => {
   return (
-    <SafeAreaView className="items-center justify-center flex-1">
+    <SafeAreaView className="items-center justify-center flex-1 bg-white">
       <StatusBar style="dark" />
       <View className="items-center">
         <LottieView

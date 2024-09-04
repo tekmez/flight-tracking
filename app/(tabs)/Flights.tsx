@@ -74,7 +74,7 @@ const Flights = () => {
   };
   return (
     <SafeAreaView
-      className="flex-1"
+      className="flex-1 bg-white"
       style={{
         paddingTop: Platform.OS === "android" ? NativeBar.currentHeight : 0,
       }}

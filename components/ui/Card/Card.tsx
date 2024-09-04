@@ -26,6 +26,22 @@ export default function Card({ children }: CardProps) {
         stroke={"#E5E7EB"}
         strokeWidth={1}
       />
+      <Circle
+        cx="0"
+        cy="75.5"
+        r="14"
+        fill="transparent"
+        stroke="#E5E7EB"
+        strokeWidth="1"
+      />
+      <Circle
+        cx="100%"
+        cy="75.5"
+        r="14"
+        fill="transparent"
+        stroke="#E5E7EB"
+        strokeWidth="1"
+      />
       <View className="p-4">{children}</View>
     </Svg>
   );
