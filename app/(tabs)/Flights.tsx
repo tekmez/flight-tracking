@@ -13,6 +13,8 @@ import EmptyState from "@/components/EmptyState";
 import TicketCard from "@/components/TicketCard";
 import { useState } from "react";
 import { Flight } from "@/types/FlightType";
+import TButton from "@/components/ui/Button";
+import Modal from "@/components/Modal";
 
 const airlines = [
   "Turkish Airlines",
@@ -27,6 +29,7 @@ const dates = ["18 Apr 2022", "19 Apr 2022", "20 Apr 2022", "21 Apr 2022"];
 
 const Flights = () => {
   const [flights, setFlights] = useState<Flight[] | []>([]);
+  const [selectedFlight, setSelectedFlight] = useState<Flight | null>(null);
 
   const getRandomElement = (array: string[]) =>
     array[Math.floor(Math.random() * array.length)];
@@ -61,6 +64,15 @@ const Flights = () => {
   const handleAddFlight = () => {
     setFlights([...flights, generateRandomFlight()]);
   };
+
+  const handleOpenModal = (flight: Flight) => {
+    setSelectedFlight(flight);
+  };
+
+  const handleCloseModal = () => {
+    setSelectedFlight(null);
+  };
+
   return (
     <SafeAreaView
       className="flex-1"
@@ -80,7 +92,11 @@ const Flights = () => {
       <View className="mt-3 flex-1 px-4">
         <FlatList
           data={flights}
-          renderItem={({ item }) => <TicketCard {...item} />}
+          renderItem={({ item }) => (
+            <TouchableOpacity onPress={() => handleOpenModal(item)}>
+              <TicketCard {...item} />
+            </TouchableOpacity>
+          )}
           keyExtractor={(item, idx) => `${item.flightNumber}-${idx}`}
           ItemSeparatorComponent={() => <View className="h-4" />}
           ListEmptyComponent={
@@ -89,8 +105,18 @@ const Flights = () => {
             </View>
           }
           contentContainerStyle={{ flexGrow: 1 }}
+          showsVerticalScrollIndicator={false}
         />
       </View>
+      <Modal visible={selectedFlight !== null} onClose={handleCloseModal}>
+        {selectedFlight && <TicketCard {...selectedFlight} />}
+        <TButton
+          onPress={handleCloseModal}
+          title="Remove Flight"
+          classNames="mt-4 bg-[#FEE2E2] w-full"
+          textClassNames="text-red-900 font-sfProMedium text-center"
+        />
+      </Modal>
     </SafeAreaView>
   );
 };
