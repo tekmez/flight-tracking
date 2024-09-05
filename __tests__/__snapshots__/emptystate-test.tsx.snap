@@ -1,0 +1,227 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`EmptyState renders correctly 1`] = `
+[
+  <View
+    style={
+      [
+        {
+          "borderBottomWidth": 1,
+          "borderLeftWidth": 1,
+          "borderRightWidth": 1,
+          "borderTopWidth": 1,
+        },
+        {
+          "borderBottomColor": "#e5e7eb",
+          "borderLeftColor": "#e5e7eb",
+          "borderRightColor": "#e5e7eb",
+          "borderTopColor": "#e5e7eb",
+        },
+        {
+          "borderBottomLeftRadius": 14,
+          "borderBottomRightRadius": 14,
+          "borderTopLeftRadius": 14,
+          "borderTopRightRadius": 14,
+        },
+        {
+          "paddingBottom": 14,
+          "paddingLeft": 14,
+          "paddingRight": 14,
+          "paddingTop": 14,
+        },
+        {
+          "marginBottom": 16,
+        },
+      ]
+    }
+  >
+    <RNSVGSvgView
+      bbHeight={29}
+      bbWidth={29}
+      fill="none"
+      focusable={false}
+      height={29}
+      style={
+        [
+          {
+            "backgroundColor": "transparent",
+            "borderWidth": 0,
+          },
+          {
+            "flex": 0,
+            "height": 29,
+            "width": 29,
+          },
+        ]
+      }
+      width={29}
+    >
+      <RNSVGGroup
+        fill={null}
+        propList={
+          [
+            "fill",
+          ]
+        }
+      >
+        <RNSVGPath
+          d="m21.267 22.9-2.1-9.567L23.25 9.25C25 7.5 25.583 5.167 25 4c-1.167-.583-3.5 0-5.25 1.75l-4.083 4.083-9.567-2.1c-.583-.116-1.05.117-1.283.584l-.35.583c-.234.583-.117 1.167.35 1.517L11 14.5 8.667 18h-3.5L4 19.167 7.5 21.5 9.833 25 11 23.833v-3.5L14.5 18l4.083 6.183c.35.467.934.584 1.517.35l.583-.233c.467-.35.7-.817.584-1.4Z"
+          fill={
+            {
+              "payload": 4278190080,
+              "type": 0,
+            }
+          }
+          propList={
+            [
+              "stroke",
+              "strokeWidth",
+              "strokeLinecap",
+              "strokeLinejoin",
+            ]
+          }
+          stroke={
+            {
+              "payload": 4281811281,
+              "type": 0,
+            }
+          }
+          strokeLinecap={1}
+          strokeLinejoin={1}
+          strokeWidth={2.333}
+        />
+      </RNSVGGroup>
+    </RNSVGSvgView>
+  </View>,
+  <View
+    style={
+      [
+        {
+          "alignItems": "center",
+        },
+        {
+          "justifyContent": "center",
+        },
+        {
+          "marginLeft": 16,
+          "marginRight": 16,
+        },
+        {
+          "marginBottom": 24,
+        },
+      ]
+    }
+  >
+    <Text
+      style={
+        [
+          {
+            "fontFamily": "SFProBold",
+          },
+          {
+            "fontSize": 22,
+          },
+          {
+            "lineHeight": 28,
+          },
+          {
+            "color": "#111827",
+          },
+          {
+            "marginBottom": 8,
+          },
+        ]
+      }
+    >
+      No Flights Added Yet
+    </Text>
+    <Text
+      style={
+        [
+          {
+            "fontFamily": "SFProRegular",
+          },
+          {
+            "fontSize": 17,
+          },
+          {
+            "lineHeight": 22,
+          },
+          {
+            "color": "#4b5563",
+          },
+          {
+            "textAlign": "center",
+          },
+        ]
+      }
+    >
+      Let's get started on your jet lag plan! Add your upcoming flights to begin your journey.
+    </Text>
+  </View>,
+  <View
+    accessibilityState={
+      {
+        "busy": undefined,
+        "checked": undefined,
+        "disabled": undefined,
+        "expanded": undefined,
+        "selected": undefined,
+      }
+    }
+    accessibilityValue={
+      {
+        "max": undefined,
+        "min": undefined,
+        "now": undefined,
+        "text": undefined,
+      }
+    }
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      {
+        "backgroundColor": "#ea580c",
+        "borderBottomLeftRadius": 14,
+        "borderBottomRightRadius": 14,
+        "borderTopLeftRadius": 14,
+        "borderTopRightRadius": 14,
+        "opacity": 1,
+        "paddingBottom": 14,
+        "paddingLeft": 20,
+        "paddingRight": 20,
+        "paddingTop": 14,
+      }
+    }
+  >
+    <Text
+      style={
+        [
+          {
+            "fontFamily": "SFProRegular",
+          },
+          {
+            "color": "#fff",
+          },
+          {
+            "fontSize": 17,
+          },
+          {
+            "lineHeight": 22,
+          },
+        ]
+      }
+    >
+      Add Flight
+    </Text>
+  </View>,
+]
+`;

@@ -1,0 +1,547 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CardContent renders correctly 1`] = `
+<View
+  style={
+    [
+      {
+        "flexDirection": "row",
+      },
+      {
+        "alignItems": "center",
+      },
+    ]
+  }
+>
+  <View
+    style={
+      [
+        {
+          "marginLeft": 3,
+        },
+      ]
+    }
+  >
+    <View
+      style={
+        [
+          {
+            "flexDirection": "row",
+          },
+          {
+            "alignItems": "center",
+          },
+          {
+            "marginBottom": 8,
+          },
+        ]
+      }
+    >
+      <RNSVGSvgView
+        bbHeight={20}
+        bbWidth={20}
+        fill="none"
+        focusable={false}
+        height={20}
+        style={
+          [
+            {
+              "backgroundColor": "transparent",
+              "borderWidth": 0,
+            },
+            [
+              {
+                "marginRight": 4,
+              },
+            ],
+            {
+              "flex": 0,
+              "height": 20,
+              "width": 20,
+            },
+          ]
+        }
+        width={20}
+      >
+        <RNSVGGroup
+          fill={null}
+          propList={
+            [
+              "fill",
+            ]
+          }
+        >
+          <RNSVGGroup
+            clipPath="a"
+            fill={
+              {
+                "payload": 4278190080,
+                "type": 0,
+              }
+            }
+            propList={
+              [
+                "stroke",
+                "strokeWidth",
+                "strokeLinecap",
+                "strokeLinejoin",
+              ]
+            }
+            stroke={
+              {
+                "payload": 4285231744,
+                "type": 0,
+              }
+            }
+            strokeLinecap={1}
+            strokeLinejoin={1}
+            strokeWidth={1.667}
+          >
+            <RNSVGPath
+              d="M15.893 15.893A8.333 8.333 0 1 0 4.107 4.107a8.333 8.333 0 0 0 11.785 11.786ZM7.643 12.357l4.714-4.714"
+              fill={
+                {
+                  "payload": 4278190080,
+                  "type": 0,
+                }
+              }
+            />
+            <RNSVGPath
+              d="M12.357 12.357V7.643H7.643"
+              fill={
+                {
+                  "payload": 4278190080,
+                  "type": 0,
+                }
+              }
+            />
+          </RNSVGGroup>
+          <RNSVGDefs>
+            <RNSVGClipPath
+              fill={
+                {
+                  "payload": 4278190080,
+                  "type": 0,
+                }
+              }
+              name="a"
+            >
+              <RNSVGPath
+                d="M0 0h20v20H0z"
+                fill={
+                  {
+                    "payload": 4294967295,
+                    "type": 0,
+                  }
+                }
+                propList={
+                  [
+                    "fill",
+                  ]
+                }
+              />
+            </RNSVGClipPath>
+          </RNSVGDefs>
+        </RNSVGGroup>
+      </RNSVGSvgView>
+      <Text
+        style={
+          [
+            {
+              "fontFamily": "SFProRegular",
+            },
+            {
+              "fontSize": 13,
+            },
+            {
+              "lineHeight": 22,
+            },
+            {
+              "textAlign": "center",
+            },
+            {
+              "color": "#6b7280",
+            },
+          ]
+        }
+      >
+        2023-07-01
+      </Text>
+    </View>
+    <Text
+      style={
+        [
+          {
+            "fontFamily": "SFProBold",
+          },
+          {
+            "fontSize": 20,
+          },
+          {
+            "lineHeight": 25,
+          },
+          {
+            "color": "#111827",
+          },
+          {
+            "marginBottom": 8,
+          },
+        ]
+      }
+    >
+      New York
+    </Text>
+    <Text
+      style={
+        [
+          {
+            "fontFamily": "SFProBold",
+          },
+          {
+            "fontSize": 13,
+          },
+          {
+            "lineHeight": 18,
+          },
+          {
+            "color": "#374151",
+          },
+        ]
+      }
+    >
+      10:00 AM
+    </Text>
+  </View>
+  <RNSVGSvgView
+    bbHeight={35}
+    bbWidth={106}
+    fill="none"
+    focusable={false}
+    height={35}
+    style={
+      [
+        {
+          "backgroundColor": "transparent",
+          "borderWidth": 0,
+        },
+        [
+          {
+            "marginLeft": "auto",
+            "marginRight": "auto",
+          },
+        ],
+        {
+          "flex": 0,
+          "height": 35,
+          "width": 106,
+        },
+      ]
+    }
+    width={106}
+  >
+    <RNSVGGroup
+      fill={null}
+      propList={
+        [
+          "fill",
+        ]
+      }
+    >
+      <RNSVGPath
+        d="M.5 17.029h104.182"
+        fill={
+          {
+            "payload": 4278190080,
+            "type": 0,
+          }
+        }
+        propList={
+          [
+            "stroke",
+            "strokeDasharray",
+            "strokeLinecap",
+          ]
+        }
+        stroke={
+          {
+            "payload": 4293257195,
+            "type": 0,
+          }
+        }
+        strokeDasharray={
+          [
+            "4",
+            "4",
+          ]
+        }
+        strokeLinecap={1}
+      />
+      <RNSVGGroup
+        clipPath="a"
+        fill={
+          {
+            "payload": 4278190080,
+            "type": 0,
+          }
+        }
+      >
+        <RNSVGPath
+          d="m51.51 26.692 4.526-7.07h4.95c2.12 0 3.888-1.061 4.242-2.122-.354-1.06-2.121-2.121-4.243-2.121h-4.95L51.51 8.308c-.283-.425-.707-.566-1.131-.425l-.566.142c-.495.212-.778.636-.707 1.131l1.273 6.223-3.536.707-2.121-2.121h-1.414l.707 3.535-.707 3.535h1.414l2.121-2.12 3.536.706-1.273 6.223c-.07.495.212.92.707 1.131l.495.212c.495.071.92-.07 1.202-.495Z"
+          fill={
+            {
+              "payload": 4294967295,
+              "type": 0,
+            }
+          }
+          propList={
+            [
+              "fill",
+              "stroke",
+              "strokeWidth",
+              "strokeLinecap",
+              "strokeLinejoin",
+            ]
+          }
+          stroke={
+            {
+              "payload": 4288455599,
+              "type": 0,
+            }
+          }
+          strokeLinecap={1}
+          strokeLinejoin={1}
+          strokeWidth={2}
+        />
+      </RNSVGGroup>
+      <RNSVGDefs>
+        <RNSVGClipPath
+          fill={
+            {
+              "payload": 4278190080,
+              "type": 0,
+            }
+          }
+          name="a"
+        >
+          <RNSVGPath
+            d="M52.5.53 69.47 17.5 52.5 34.47 35.53 17.5z"
+            fill={
+              {
+                "payload": 4294967295,
+                "type": 0,
+              }
+            }
+            propList={
+              [
+                "fill",
+              ]
+            }
+          />
+        </RNSVGClipPath>
+      </RNSVGDefs>
+    </RNSVGGroup>
+  </RNSVGSvgView>
+  <View
+    style={
+      [
+        {
+          "marginRight": 3,
+        },
+        {
+          "alignItems": "flex-end",
+        },
+      ]
+    }
+  >
+    <View
+      style={
+        [
+          {
+            "flexDirection": "row",
+          },
+          {
+            "alignItems": "center",
+          },
+          {
+            "marginBottom": 8,
+          },
+        ]
+      }
+    >
+      <RNSVGSvgView
+        bbHeight={20}
+        bbWidth={20}
+        fill="none"
+        focusable={false}
+        height={20}
+        style={
+          [
+            {
+              "backgroundColor": "transparent",
+              "borderWidth": 0,
+            },
+            [
+              {
+                "marginRight": 4,
+              },
+            ],
+            {
+              "flex": 0,
+              "height": 20,
+              "width": 20,
+            },
+          ]
+        }
+        width={20}
+      >
+        <RNSVGGroup
+          fill={null}
+          propList={
+            [
+              "fill",
+            ]
+          }
+        >
+          <RNSVGGroup
+            clipPath="a"
+            fill={
+              {
+                "payload": 4278190080,
+                "type": 0,
+              }
+            }
+            propList={
+              [
+                "stroke",
+                "strokeWidth",
+                "strokeLinecap",
+                "strokeLinejoin",
+              ]
+            }
+            stroke={
+              {
+                "payload": 4285231744,
+                "type": 0,
+              }
+            }
+            strokeLinecap={1}
+            strokeLinejoin={1}
+            strokeWidth={1.667}
+          >
+            <RNSVGPath
+              d="M4.107 15.893A8.334 8.334 0 1 0 15.893 4.107 8.334 8.334 0 0 0 4.107 15.893ZM7.643 7.643l4.714 4.714"
+              fill={
+                {
+                  "payload": 4278190080,
+                  "type": 0,
+                }
+              }
+            />
+            <RNSVGPath
+              d="M7.643 12.357h4.714V7.643"
+              fill={
+                {
+                  "payload": 4278190080,
+                  "type": 0,
+                }
+              }
+            />
+          </RNSVGGroup>
+          <RNSVGDefs>
+            <RNSVGClipPath
+              fill={
+                {
+                  "payload": 4278190080,
+                  "type": 0,
+                }
+              }
+              name="a"
+            >
+              <RNSVGPath
+                d="M0 0h20v20H0z"
+                fill={
+                  {
+                    "payload": 4294967295,
+                    "type": 0,
+                  }
+                }
+                propList={
+                  [
+                    "fill",
+                  ]
+                }
+              />
+            </RNSVGClipPath>
+          </RNSVGDefs>
+        </RNSVGGroup>
+      </RNSVGSvgView>
+      <Text
+        style={
+          [
+            {
+              "fontFamily": "SFProRegular",
+            },
+            {
+              "fontSize": 13,
+            },
+            {
+              "lineHeight": 22,
+            },
+            {
+              "textAlign": "center",
+            },
+            {
+              "color": "#6b7280",
+            },
+          ]
+        }
+      >
+        2023-08-08
+      </Text>
+    </View>
+    <Text
+      style={
+        [
+          {
+            "fontFamily": "SFProBold",
+          },
+          {
+            "fontSize": 20,
+          },
+          {
+            "lineHeight": 25,
+          },
+          {
+            "color": "#111827",
+          },
+          {
+            "marginBottom": 8,
+          },
+        ]
+      }
+    >
+      Los Angeles
+    </Text>
+    <Text
+      style={
+        [
+          {
+            "fontFamily": "SFProBold",
+          },
+          {
+            "fontSize": 13,
+          },
+          {
+            "lineHeight": 18,
+          },
+          {
+            "color": "#374151",
+          },
+        ]
+      }
+    >
+      1:00 PM
+    </Text>
+  </View>
+</View>
+`;

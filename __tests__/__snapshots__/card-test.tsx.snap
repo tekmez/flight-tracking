@@ -1,0 +1,177 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Card renders correctly 1`] = `
+<RNSVGSvgView
+  bbHeight="151"
+  bbWidth="100%"
+  focusable={false}
+  height="151"
+  style={
+    [
+      {
+        "backgroundColor": "transparent",
+        "borderWidth": 0,
+      },
+      {
+        "flex": 0,
+        "height": 151,
+        "width": "100%",
+      },
+    ]
+  }
+  width="100%"
+>
+  <RNSVGGroup
+    fill={
+      {
+        "payload": 4278190080,
+        "type": 0,
+      }
+    }
+  >
+    <RNSVGDefs>
+      <RNSVGClipPath
+        fill={
+          {
+            "payload": 4278190080,
+            "type": 0,
+          }
+        }
+        name="clip"
+      >
+        <RNSVGRect
+          fill={
+            {
+              "payload": 4278190080,
+              "type": 0,
+            }
+          }
+          height="151"
+          rx="14"
+          ry="14"
+          width="100%"
+          x="0"
+          y="0"
+        />
+        <RNSVGCircle
+          cx="0"
+          cy="75.5"
+          fill={
+            {
+              "payload": 4278190080,
+              "type": 0,
+            }
+          }
+          r="14"
+        />
+        <RNSVGCircle
+          cx="100%"
+          cy="75.5"
+          fill={
+            {
+              "payload": 4278190080,
+              "type": 0,
+            }
+          }
+          r="14"
+        />
+      </RNSVGClipPath>
+    </RNSVGDefs>
+    <RNSVGRect
+      clipPath="clip"
+      fill={
+        {
+          "payload": 4294967295,
+          "type": 0,
+        }
+      }
+      height="151"
+      propList={
+        [
+          "fill",
+          "stroke",
+          "strokeWidth",
+        ]
+      }
+      rx={14}
+      ry={14}
+      stroke={
+        {
+          "payload": 4293257195,
+          "type": 0,
+        }
+      }
+      strokeWidth={1}
+      width="100%"
+      x="0"
+      y="0"
+    />
+    <RNSVGCircle
+      cx="0"
+      cy="75.5"
+      fill={
+        {
+          "payload": 0,
+          "type": 0,
+        }
+      }
+      propList={
+        [
+          "fill",
+          "stroke",
+          "strokeWidth",
+        ]
+      }
+      r="14"
+      stroke={
+        {
+          "payload": 4293257195,
+          "type": 0,
+        }
+      }
+      strokeWidth="1"
+    />
+    <RNSVGCircle
+      cx="100%"
+      cy="75.5"
+      fill={
+        {
+          "payload": 0,
+          "type": 0,
+        }
+      }
+      propList={
+        [
+          "fill",
+          "stroke",
+          "strokeWidth",
+        ]
+      }
+      r="14"
+      stroke={
+        {
+          "payload": 4293257195,
+          "type": 0,
+        }
+      }
+      strokeWidth="1"
+    />
+    <View
+      style={
+        [
+          {
+            "paddingBottom": 16,
+            "paddingLeft": 16,
+            "paddingRight": 16,
+            "paddingTop": 16,
+          },
+        ]
+      }
+    >
+      <Text>
+        Test Content
+      </Text>
+    </View>
+  </RNSVGGroup>
+</RNSVGSvgView>
+`;

@@ -1,0 +1,213 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Flights renders correctly 1`] = `
+<RCTSafeAreaView
+  style={
+    [
+      {
+        "flexBasis": "0%",
+        "flexGrow": 1,
+        "flexShrink": 1,
+      },
+      {
+        "backgroundColor": "#fff",
+      },
+      {
+        "paddingTop": 0,
+      },
+    ]
+  }
+>
+  <View
+    style={
+      [
+        {
+          "flexDirection": "row",
+        },
+        {
+          "alignItems": "baseline",
+        },
+        {
+          "justifyContent": "space-between",
+        },
+        {
+          "paddingBottom": 4,
+          "paddingTop": 4,
+        },
+        {
+          "paddingLeft": 16,
+          "paddingRight": 16,
+        },
+      ]
+    }
+  >
+    <Text
+      style={
+        [
+          {
+            "fontFamily": "SFProBold",
+          },
+          {
+            "fontSize": 34,
+          },
+          {
+            "lineHeight": 41,
+          },
+          {
+            "color": "#111827",
+          },
+        ]
+      }
+    >
+      Flights
+    </Text>
+    <View
+      accessibilityState={
+        {
+          "busy": undefined,
+          "checked": undefined,
+          "disabled": undefined,
+          "expanded": undefined,
+          "selected": undefined,
+        }
+      }
+      accessibilityValue={
+        {
+          "max": undefined,
+          "min": undefined,
+          "now": undefined,
+          "text": undefined,
+        }
+      }
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        {
+          "opacity": 1,
+        }
+      }
+    >
+      <Feather
+        color="#111827"
+        name="plus"
+        size={24}
+        testID="add-flight-button"
+      />
+    </View>
+  </View>
+  <View
+    style={
+      [
+        {
+          "marginTop": 12,
+        },
+        {
+          "flexBasis": "0%",
+          "flexGrow": 1,
+          "flexShrink": 1,
+        },
+        {
+          "paddingLeft": 16,
+          "paddingRight": 16,
+        },
+      ]
+    }
+  >
+    <TicketList
+      EmptyState="EmptyState"
+      flights={[]}
+      handleAddFlight={[Function]}
+      handleOpenModal={[Function]}
+      testID="ticket-list"
+    />
+  </View>
+  <Modal
+    onClose={[Function]}
+    visible={false}
+  >
+    <View
+      accessibilityState={
+        {
+          "busy": undefined,
+          "checked": undefined,
+          "disabled": undefined,
+          "expanded": undefined,
+          "selected": undefined,
+        }
+      }
+      accessibilityValue={
+        {
+          "max": undefined,
+          "min": undefined,
+          "now": undefined,
+          "text": undefined,
+        }
+      }
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        {
+          "backgroundColor": "#FEE2E2",
+          "borderBottomLeftRadius": 14,
+          "borderBottomRightRadius": 14,
+          "borderTopLeftRadius": 14,
+          "borderTopRightRadius": 14,
+          "marginTop": 16,
+          "opacity": 1,
+          "paddingBottom": 14,
+          "paddingLeft": 20,
+          "paddingRight": 20,
+          "paddingTop": 14,
+          "width": "100%",
+        }
+      }
+    >
+      <Text
+        style={
+          [
+            {
+              "fontFamily": "SFProRegular",
+            },
+            {
+              "color": "#fff",
+            },
+            {
+              "fontSize": 17,
+            },
+            {
+              "lineHeight": 22,
+            },
+            {
+              "color": "#7f1d1d",
+            },
+            {
+              "fontFamily": "SFProMedium",
+            },
+            {
+              "textAlign": "center",
+            },
+          ]
+        }
+      >
+        Remove Flight
+      </Text>
+    </View>
+  </Modal>
+</RCTSafeAreaView>
+`;

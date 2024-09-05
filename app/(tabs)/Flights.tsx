@@ -85,7 +85,12 @@ const Flights = () => {
           Flights
         </Text>
         <TouchableOpacity onPress={handleAddFlight}>
-          <Feather name="plus" size={24} color="#111827" />
+          <Feather
+            name="plus"
+            size={24}
+            color="#111827"
+            testID="add-flight-button"
+          />
         </TouchableOpacity>
       </View>
       <View className="mt-3 flex-1 px-4">
@@ -94,6 +99,7 @@ const Flights = () => {
           handleOpenModal={handleOpenModal}
           handleAddFlight={handleAddFlight}
           EmptyState={EmptyState}
+          testID="ticket-list"
         />
       </View>
       <Modal visible={selectedFlight !== null} onClose={handleCloseModal}>

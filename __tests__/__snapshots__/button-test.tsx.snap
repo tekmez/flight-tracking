@@ -1,0 +1,67 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button renders correctly 1`] = `
+<View
+  accessibilityState={
+    {
+      "busy": undefined,
+      "checked": undefined,
+      "disabled": undefined,
+      "expanded": undefined,
+      "selected": undefined,
+    }
+  }
+  accessibilityValue={
+    {
+      "max": undefined,
+      "min": undefined,
+      "now": undefined,
+      "text": undefined,
+    }
+  }
+  accessible={true}
+  collapsable={false}
+  focusable={true}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    {
+      "borderBottomLeftRadius": 14,
+      "borderBottomRightRadius": 14,
+      "borderTopLeftRadius": 14,
+      "borderTopRightRadius": 14,
+      "opacity": 1,
+      "paddingBottom": 14,
+      "paddingLeft": 20,
+      "paddingRight": 20,
+      "paddingTop": 14,
+    }
+  }
+>
+  <Text
+    style={
+      [
+        {
+          "fontFamily": "SFProRegular",
+        },
+        {
+          "color": "#fff",
+        },
+        {
+          "fontSize": 17,
+        },
+        {
+          "lineHeight": 22,
+        },
+      ]
+    }
+  >
+    Go to Flights
+  </Text>
+</View>
+`;

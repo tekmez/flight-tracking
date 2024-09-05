@@ -1,0 +1,63 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Badge renders correctly 1`] = `
+<View
+  style={
+    [
+      {
+        "paddingBottom": 4,
+        "paddingTop": 4,
+      },
+      {
+        "paddingLeft": 10,
+        "paddingRight": 10,
+      },
+      {
+        "borderBottomWidth": 0.5,
+        "borderLeftWidth": 0.5,
+        "borderRightWidth": 0.5,
+        "borderTopWidth": 0.5,
+      },
+      {
+        "borderBottomLeftRadius": 7,
+        "borderBottomRightRadius": 7,
+        "borderTopLeftRadius": 7,
+        "borderTopRightRadius": 7,
+      },
+      {
+        "borderBottomColor": "#fed7aa",
+        "borderLeftColor": "#fed7aa",
+        "borderRightColor": "#fed7aa",
+        "borderTopColor": "#fed7aa",
+      },
+      {
+        "backgroundColor": "#fff7ed",
+      },
+    ]
+  }
+>
+  <Text
+    style={
+      [
+        {
+          "fontFamily": "SFProMedium",
+        },
+        {
+          "fontSize": 12,
+        },
+        {
+          "lineHeight": 16,
+        },
+        {
+          "color": "#c2410c",
+        },
+        {
+          "textAlign": "center",
+        },
+      ]
+    }
+  >
+    1000
+  </Text>
+</View>
+`;

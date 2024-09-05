@@ -8,6 +8,7 @@ type TicketListProps = {
   handleOpenModal: (flight: Flight) => void;
   handleAddFlight: () => void;
   EmptyState: React.FC<{ onPress: () => void }>;
+  testID?: string;
 };
 
 const TicketList = ({
@@ -15,6 +16,7 @@ const TicketList = ({
   handleOpenModal,
   handleAddFlight,
   EmptyState,
+  testID,
 }: TicketListProps) => {
   return (
     <FlatList
@@ -33,6 +35,7 @@ const TicketList = ({
       }
       contentContainerStyle={{ flexGrow: 1 }}
       showsVerticalScrollIndicator={false}
+      testID="ticket-list"
     />
   );
 };

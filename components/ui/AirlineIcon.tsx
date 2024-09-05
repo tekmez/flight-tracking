@@ -16,7 +16,7 @@ type IconProps = {
 const Airline: React.FC<IconProps> = ({ name }) => {
   const AirlineIcon = icons[name];
 
-  return <AirlineIcon />;
+  return <AirlineIcon testID="airline-icon" />;
 };
 
 export default Airline;

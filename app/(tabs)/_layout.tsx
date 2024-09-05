@@ -44,7 +44,7 @@ const TabLayout = () => {
       <Tabs.Screen
         name="User"
         options={{
-          title: "User",
+          title: "Me",
           tabBarIcon: ({ focused }) => (
             <UserIcon className={`${!focused && "opacity-50"}`} />
           ),
